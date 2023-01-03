@@ -77,6 +77,25 @@ nav h1 {
     margin: 15px 0px;
 }
 
+.rond {
+    display: flex;
+    align-items: center;
+}
+
+.rond i {
+    padding: 5px;
+    border: solid #F0F2F6 2px;
+    border-radius: 100%;
+    margin: 11px;
+    color: #0065FC;
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
  ::placeholder {
     color: black;
 }
