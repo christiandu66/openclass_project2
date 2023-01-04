@@ -172,8 +172,9 @@ nav ul::before {
 }
 
 nav ul li i {
-    color: blue;
+    color: #0065FC;
     margin-right: 10px;
+    font-size: 22px;
 }
 
 .contenu {
