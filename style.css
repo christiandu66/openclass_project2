@@ -168,7 +168,7 @@ nav ul {
 }
 
 nav ul::before {
-    content: "Filtre";
+    content: "Filtres";
 }
 
 nav ul li i {
