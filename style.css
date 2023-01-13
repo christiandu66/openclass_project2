@@ -5,7 +5,7 @@
             }
             
             body {
-                background: #1f1f1f;
+              
                 font-family: raleway;
                 max-width: 100%;
             }
@@ -75,6 +75,12 @@
             nav h1 {
                 font-size: 22px;
                 margin: 15px 0px;
+            }
+            nav ul li a{
+                font-size: 17px;
+                color: black;
+                text-decoration: none;
+                cursor: not-allowed;
             }
             
             .rond {
@@ -227,8 +233,8 @@
             }
             
             .photohotel.list img {
-                width: 134px;
                 max-width: 134px;
+
                 height: 100%;
                 border-radius: 20px 0px 0px 20px;
             }
@@ -251,18 +257,21 @@
                 margin: 15px;
                 width: calc(33.33% - 30px);
                 box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.33);
+                position: relative;
             }
-            
+            .photohotel > a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                width: 100%;
+                z-index: 999;
+            }
             .photohotel a {
                 margin: 0;
             }
             
-            .photohotel.list a {
-                display: flex;
-                height: 100%;
-                width: 134px;
-            }
-            
+
             .photohotel img {
                 display: flex;
                 height: 124px;
@@ -366,6 +375,11 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: space-between;
+            }
+            article a {
+                font-size: 16px;
+                text-decoration: none;
+                color: black;
             }
             
             h3 {
@@ -516,11 +530,10 @@
                     width: 100%;
                     margin: 10px 0px;
                 }
-                .photohotel.list a {
-                    width: 219px;
-                }
+               
                 .photohotel.list img {
-                    width: 219px;
+                    min-width: 134px;
+                    max-width: 134px;
                 }
                 .hotel h1 {
                     margin: 15px 0px;
